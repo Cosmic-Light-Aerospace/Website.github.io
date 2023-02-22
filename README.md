@@ -1,2 +1,2 @@
-# Website.github.io
+# website.github.io
 Our Website
