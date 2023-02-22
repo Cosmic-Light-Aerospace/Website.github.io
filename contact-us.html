@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+    <title>Contact Us</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+</head>
+
+<body style="background-color: black;">
+    <header>
+        <a href="index.html">
+            <img src="/img/logo.png" alt="Cosmic Light Aerospace Logo" title="Cosmic Light Aerospace" height="100">
+                    </a>
+    </header>
+    <hr>
+    <nav>
+    <table cellspacing="5" cellpadding="5">
+        <tr>
+            <td><a href="index.html">Home</a></td>
+            <td><a href="about-us.html">About Us</a></td>
+            <td><a href="products-and-services.html">Products and Services</a></td>
+            <td><a href="news-and-events.html">News and Events</a></td>
+            <td><a href="careers.html">Careers</a></td>
+            <td><a href="contact-us.html">Contact Us</a></td>
+        </tr>
+    </table>
+    </nav>
+    <hr>
+
+    <a style="color: white;">
+    <h1>Contact Us</h1>
+    </a>
+
+    <link href="/css/contact-form.css" rel="stylesheet">
+
+<a style="color: white;">
+    <div class="fcf-body">
+
+    <div id="fcf-form">
+
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="/php/contact-form-process.php">
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
+    </form>
+    </div>
+
+</div>
+</a>
+</body>
+
+<hr>
+
+<footer style="color: white;">
+    <a href="https://www.youtube.com/channel/UCpEgx4BRG-M8xmtxQ0BoZxQ"> <img src="/img/icons8-youtube.svg" alt="Our YouTube Channel" title="Our YouTube Channel"></a><br>
+    Copyright &copy; 2023 Cosmic Light Aerospace. All rights reserved.
+</footer>
