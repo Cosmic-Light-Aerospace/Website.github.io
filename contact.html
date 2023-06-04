@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Contact</title>
-                <link href='https://fonts.googleapis.com/css?family=Russo One' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Russo One' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
 	</head>
 	<body>
@@ -13,7 +13,7 @@
 				<li><a href="index.html">Home</a></li>
 				<li><a href="about.html">About</a></li>
 				<li><a href="products.html">Products</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
 			</ul>
 <!-- navbar -->
 			<p>We love to hear from our customers! Here are a few ways you can get in touch with us:</p>
@@ -21,8 +21,32 @@
 				<li>Email us: <a href="mailto:contact@cosmiclightaerospace.com?subject=Website Contact">contact@cosmiclightaerospace.com</a></li>
 				<li>Fill out this form:</li>
 			</ol>
-			<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdli91eaBpKjzZsRPNNQaNucXdgh00tBRTe8TCZSlE3IAQ85Q/viewform?embedded=true" width="680" height="631" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-            
+			
+
+<div style="color:rgb(255, 255, 255);">
+<section id="contact">
+  <div class="section-heading">
+    <h2>Contact Us</h2>
+  </div>
+<div class="section-content">
+    <form action="submit-form.php" method="post">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+     
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+ 
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone">
+  
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <input type="submit" value="Send">
+    </form>
+  </div>
+</section>
+
             <hr>
 			
             <p>Copyright &copy; 2023 Cosmic Light Aerospace. All rights reserved.</p>
